@@ -1,0 +1,94 @@
+{
+  "DogClub" :
+  {
+		"Registration" 	 : "991627844",
+		"Handler"      	 : "Katarzyna KArakow",
+		"Location"       : "Trafalgar",
+		"HelpEmail"			 : "karakow@sheridancollege.ca"
+  },
+	"dogBreeds": 
+	[
+	{
+			"breed": "Labrador Retriever",
+			"breedType": "Purebred",
+			"origin": "Canada,USA",
+			"popularity": "1",
+			"hypoallergenic": "No",
+			"intelligence": 7
+	}, {
+			"breed": "German Shepard",
+			"breedType": "Purebred",
+			"origin": "Germany",
+			"popularity": "2",
+			"hypoallergenic": "No",
+			"intelligence": 3
+	}, {
+			"breed": "Golden Retriever",
+			"breedType": "Purebred",
+			"origin": "United Kingdom",
+			"popularity": "3",
+			"hypoallergenic": "No",
+			"intelligence": 4
+	}, {
+			"breed": "French Bulldog",
+			"breedType": "Purebred",
+			"origin": "France, UK",
+			"popularity": "4",
+			"hypoallergenic": "No",
+			"intelligence": 58
+
+	}, {
+			"breed": "Bulldog",
+			"breedType": "Purebred",
+			"origin": "United Kingdom",
+			"popularity": "5",
+			"hypoallergenic": "No",
+			"intelligence": 77
+
+	}, {
+			"breed": "Beagle",
+			"breedType": "Purebred",
+			"origin": "United Kingdom",
+			"popularity": "6",
+			"hypoallergenic": "No",
+			"intelligence": 72
+	}, {
+			"breed": "Poodle",
+			"breedType": "Purebred",
+			"origin": "Germany, France",
+			"popularity": "7",
+			"hypoallergenic": "Yes",
+			"intelligence": 2
+	}, {
+			"breed": "Rottweiler",
+			"breedType": "Purebred",
+			"origin": "Germany",
+			"popularity": "8",
+			"hypoallergenic": "No",
+			"intelligence": 9
+	}, {
+			"breed": "German Shorthaired Pointer",
+			"breedType": "Purebred",
+			"origin": "Germany",
+			"popularity": "9",
+			"hypoallergenic": "No",
+			"intelligence": 9
+
+	}, {
+			"breed": "Yorkshire Terrier",
+			"breedType": "Purebred",
+			"origin": "United Kingdom",
+			"popularity": "10",
+			"hypoallergenic": "Yes",
+			"intelligence": 27
+
+	}, {
+			"breed": "Boxer",
+			"breedType": "Purebred",
+			"origin": "Germany",
+			"popularity": "11",
+			"hypoallergenic": "No",
+			"intelligence": 48
+	}
+	]
+}

@@ -1,0 +1,32 @@
+<app-header [student]="student"></app-header>
+
+<!-- TO INCLUDE IN app.component.html FOR FINAL EXAM / Include h3 and mat-tab-group -->
+
+<h3 style="text-align: center;">SYST24444 Final Exam / Thursday 8-11 / Fall 2021</h3>
+
+<mat-tab-group mat-stretch-tabs  
+               class="example-stretched-tabs mat-elevation-z4"
+		[ngStyle]="{textAlign: 'center'}">
+
+  <!-- Tab for 01tab component -->
+  <mat-tab label="karakow / 01tab">
+    <app-karakow01tab [tab01info]="student"></app-karakow01tab>
+  </mat-tab>
+
+  <!-- Tab for 02tab component -->
+  <mat-tab label="karakow / 02tab">
+    <app-karakow02tab></app-karakow02tab>
+  </mat-tab>
+
+   <!-- Tab for 03tab component -->
+  <mat-tab label="karakow / 03tab">
+    <app-karakow03tab [tab03Club]="dataDogClub" [tab03Breed]="dataDogBreeds"></app-karakow03tab>
+  </mat-tab>
+
+   <!-- Tab for 04tab component -->
+  <mat-tab label="karakow/ 04tab">
+    <app-karakow04tab></app-karakow04tab>
+  </mat-tab>
+</mat-tab-group>
+
+<app-footer></app-footer>
